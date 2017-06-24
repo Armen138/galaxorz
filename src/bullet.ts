@@ -15,7 +15,7 @@ class Bullet extends GameObject {
         super();
         this.x = x;
         this.y = y;
-        this.velocity = 0.5;
+        this.velocity = 0.25;
         this.alive = true;
         this.trail = new ParticleSystem({
             systemLifeTime: 0,
