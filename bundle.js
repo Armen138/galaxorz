@@ -1432,7 +1432,7 @@
 	        _super.call(this);
 	        this.x = x;
 	        this.y = y;
-	        this.velocity = 0.1;
+	        this.velocity = 0.25;
 	        this.alive = true;
 	        this.trail = new particlesystem_1.default({
 	            systemLifeTime: 0,
